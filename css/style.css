@@ -1,0 +1,78 @@
+*{margin: 0;}
+html{font-size: 10px;background-color: #464646;}
+body{font-size: 1rem;}
+a{text-decoration: none;}
+
+header{position: fixed;width: 100%;height: 8rem;background-color: black;z-index: 9999;opacity: 0.6;}
+header > nav{width: 102.4rem;margin: auto;display: flex;justify-content: space-between;align-items: center;height: 8rem;}
+
+header > nav > .menu {display: inline-block;}
+header > nav > .menu > ul {list-style: none;}
+header > nav > .menu > ul > li {float: left;margin: 0rem 1.7rem;}
+header > nav > .menu > ul > li > a {color: #ffd92b;font-family: 'Noto Sans KR', sans-serif;font-size: 1.6rem;font-weight: 500;letter-spacing: -0.03rem;}
+header > nav > .menu > ul > li > a:hover{color: #ffffff;}
+
+section > .keyvisual {background-image: url('../img/02_keyvisual_bg.png');height: 80rem;}
+section > .keyvisual > .keyvisual_wrap {margin: auto;width: 102.4rem;height: 800px;}
+section > .keyvisual > .keyvisual_wrap > .keyvisual_title {padding-top: 19rem;text-align: center;}
+
+section > .profile {background-image: url();height: 90.3rem;}
+section > .profile > .profile_wrap {margin: auto;width: 102.4rem;}
+section > .profile > .profile_wrap > .profile_01 {padding-top: 6.7rem;}
+section > .profile > .profile_wrap > .profile_02 {margin-top: 8.0rem;}
+section > .profile > .profile_wrap > .profile_03 {margin-top: 8.0rem;}
+section > .profile > .profile_wrap > .profile_04 {margin-top: 8.0rem;}
+
+/*--portfolio 1--*/
+section > .pf_1{background-color: #EF9828;height: 120.0rem;}
+section > .pf_1 > .pf_wrap{margin: auto;width: 140.0rem;text-align: center;}
+section > .pf_1 > .pf_wrap > .pf_tit_1{padding-top: 4.4rem;}
+section > .pf_1 > .pf_wrap > .pf_img_1{margin-top: 2.4rem;}
+section > .pf_1 > .pf_wrap > .pf_txt_1{margin-top: 3.7rem;}
+
+/*--portfolio 2--*/
+section > .pf_2{background-color: #E5E5E5;height: 120.0rem;}
+section > .pf_2 > .pf_wrap{margin: auto;width: 140.0rem;text-align: center;}
+section > .pf_2 > .pf_wrap > .pf_tit_2{padding-top: 4.4rem;}
+section > .pf_2 > .pf_wrap > .pf_img_2{margin-top: 2.4rem;}
+section > .pf_2 > .pf_wrap > .pf_txt_2{margin-top: 1.0rem;}
+
+/*--portfolio 3--*/
+section > .pf_3{background-color: #208ECA;height: 120.0rem;}
+section > .pf_3 > .pf_wrap{margin: auto;width: 140.0rem;text-align: center;}
+section > .pf_3 > .pf_wrap > .pf_tit_3{padding-top: 4.4rem;}
+section > .pf_3 > .pf_wrap > .pf_img_3{margin-top: 2.4rem;}
+section > .pf_3 > .pf_wrap > .pf_txt_3{margin-top: 3.7rem;}
+
+/*--portfolio 4--*/
+section > .pf_4{background-color: #F4E0D7;height: 120.0rem;}
+section > .pf_4 > .pf_wrap{margin: auto;width: 140.0rem;text-align: center;}
+section > .pf_4 > .pf_wrap > .pf_tit_4{padding-top: 4.4rem;}
+section > .pf_4 > .pf_wrap > .pf_img_4{margin-top: 2.4rem;}
+section > .pf_4 > .pf_wrap > .pf_txt_4{margin-top: 3.7rem;}
+
+/*--portfolio 5--*/
+section > .pf_5{background-color: #F59B9B;height: 120.0rem;}
+section > .pf_5 > .pf_wrap{margin: auto;width: 140.0rem;text-align: center;}
+section > .pf_5 > .pf_wrap > .pf_tit_5{padding-top: 4.4rem;}
+section > .pf_5 > .pf_wrap > .pf_img_5{margin-top: 2.4rem;}
+section > .pf_5 > .pf_wrap > .pf_txt_5{margin-top: 3.7rem;}
+
+/*--portfolio 6--*/
+section > .pf_6{background-color: #C7C0A7;height: 120.0rem;}
+section > .pf_6 > .pf_wrap{margin: auto;width: 140.0rem;text-align: center;}
+section > .pf_6 > .pf_wrap > .pf_tit_6{padding-top: 4.4rem;}
+section > .pf_6 > .pf_wrap > .pf_img_6{margin-top: 2.4rem;}
+section > .pf_6 > .pf_wrap > .pf_txt_6{margin-top: 3.7rem;}
+
+/*--portfolio 7--*/
+section > .pf_7{background-color: #7B987B;height: 120.0rem;}
+section > .pf_7 > .pf_wrap{margin: auto;width: 140.0rem;text-align: center;}
+section > .pf_7 > .pf_wrap > .pf_tit_7{padding-top: 4.4rem;}
+section > .pf_7 > .pf_wrap > .pf_img_7{margin-top: 2.4rem;}
+section > .pf_7 > .pf_wrap > .pf_txt_7{margin-top: 3.7rem;}
+
+footer{background-color: #464646;height: 8.0rem;}
+footer > .footer_wrap{margin: auto;width: 102.4rem;}
+footer > .footer_wrap > .footer_logo{float: left;padding-top: 2.5rem;}
+footer > .footer_wrap > .footer_txt{float: right;padding-top: 2.5rem;text-align: right;font-family: 'Noto Sans KR', sans-serif;font-size: 1.8rem;font-weight: 300;letter-spacing: -0.03rem;color: #ffffff;}

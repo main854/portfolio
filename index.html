@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Seunghyun's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--모바일로 이동하는 스크립트 시작-->
+    <script type="text/javascript"> var UserAgent = navigator.userAgent; if (UserAgent.match(/iPhone|ipad|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null) { location.href = "m_index.html"; }
+    </script>
+    <!--모바일로 이동하는 스크립트 끝-->
+    
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="img/01_logo.png" alt="an insightful designer">
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a onclick="fnMove('1')">WEB DESIGN</a></li>
+            <li><a onclick="fnMove('2')">EDITORIAL</a></li>
+            <li><a onclick="fnMove('5')">CAPSTONE DESIGN</a></li>
+            <li><a onclick="fnMove('6')">PACKAGE</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <!--타이틀 부문-->
+      <div class="keyvisual"> <!--키비주얼이 나오는 영역-->
+        <div class="keyvisual_wrap"> <!--키비주얼의 1024pixel을 중앙에 연출 영역-->
+          </div>
+        </div>
+      </div>
+      <!--프로필 부문-->
+      <div class="profile">
+        <div class="profile_wrap">
+          <div class="profile_01" data-aos="fade-up" data-aos-duration="1500"><img src="img/04_01_txt.png" alt="이름/연락처"></div>
+          <div class="profile_02" data-aos="fade-up" data-aos-duration="1500"><img src="img/04_02_txt.png" alt="education"></div>
+          <div class="profile_03" data-aos="fade-up" data-aos-duration="1500"><img src="img/04_03_txt.png" alt="parttime"></div>
+          <div class="profile_04" data-aos="fade-up" data-aos-duration="1500"><img src="img/04_04_txt.png" alt="skill"></div>
+        </div>
+      </div>
+
+      <!--포트폴리오 1-->
+      <div class="portfolio_img"><img src="img/web_design.png" alt="웹디자인"></div>
+      <div class="pf_1" id="anchor1">
+        <div class="pf_wrap">
+          <div class="pf_tit_1"><img src="img/pf_tit_1.png" alt="웹디자인"></div>
+          <div class="pf_img_1" data-aos="zoom-in" data-aos-duration="1500"><img src="img/pf_img_1.png" alt="웹디자인 목업"></div>
+          <div class="pf_txt_1"><img src="img/pf_txt_1.png" alt="웹디자인 설명"></div>
+        </div>
+      </div>
+
+      <!--포트폴리오 2-->
+      <div class="portfolio_img"><img src="img/editorial.png" alt="editorial"></div>
+      <div class="pf_2" id="anchor2">
+        <div class="pf_wrap">
+          <div class="pf_tit_2"><img src="img/pf_tit_2.png" alt="북커버디자인"></div>
+          <div class="pf_img_2" data-aos="zoom-in" data-aos-duration="1500"><img src="img/pf_img_2.png" alt="북커버디자인 목업"></div>
+          <div class="pf_txt_2"><img src="img/pf_txt_2.png" alt="북커버디자인 설명"></div>
+        </div>
+      </div>
+
+      <!--포트폴리오 3-->
+      <div class="pf_3" id="anchor3">
+        <div class="pf_wrap">
+          <div class="pf_tit_3"><img src="img/pf_tit_3.png" alt="신문지면디자인"></div>
+          <div class="pf_img_3" data-aos="zoom-in" data-aos-duration="1500"><img src="img/pf_img_3.png" alt="신문지면디자인 목업"></div>
+          <div class="pf_txt_3"><img src="img/pf_txt_3.png" alt="신문지면디자인 설명"></div>
+        </div>
+      </div>
+
+      <!--포트폴리오 4-->
+      <div class="pf_4" id="anchor4">
+        <div class="pf_wrap">
+          <div class="pf_tit_4"><img src="img/pf_tit_4.png" alt="리플렛디자인"></div>
+          <div class="pf_img_4" data-aos="zoom-in" data-aos-duration="1500"><img src="img/pf_img_4.png" alt="리플렛디자인 목업"></div>
+          <div class="pf_txt_4"><img src="img/pf_txt_4.png" alt="리플렛디자인 설명"></div>
+        </div>
+      </div>
+
+      <!--포트폴리오 5-->
+      <div class="portfolio_img"><img src="img/capstone_design.png" alt="capstone design"></div>
+      <div class="pf_5" id="anchor5">
+        <div class="pf_wrap">
+          <div class="pf_tit_5"><img src="img/pf_tit_5.png" alt="2021 탁상용 캘린더"></div>
+          <div class="pf_img_5" data-aos="zoom-in" data-aos-duration="1500"><img src="img/pf_img_5.png" alt="2021 탁상용 캘린더 목업"></div>
+          <div class="pf_txt_5"><img src="img/pf_txt_5.png" alt="2021 탁상용 캘린더 설명"></div>
+        </div>
+      </div>
+
+      <!--포트폴리오 6-->
+      <div class="portfolio_img"><img src="img/package_design.png" alt="package design"></div>
+      <div class="pf_6" id="anchor6">
+        <div class="pf_wrap">
+          <div class="pf_tit_6"><img src="img/pf_tit_6.png" alt="꿀 패키지 디자인"></div>
+          <div class="pf_img_6" data-aos="zoom-in" data-aos-duration="1500"><img src="img/pf_img_6.png" alt="꿀 패키지 디자인 목업"></div>
+          <div class="pf_txt_6"><img src="img/pf_txt_6.png" alt="꿀 패키지 디자인 설명"></div>
+        </div>
+      </div>
+
+      <!--포트폴리오 7-->
+      <div class="pf_7" id="anchor7">
+        <div class="pf_wrap">
+          <div class="pf_tit_7"><img src="img/pf_tit_7.png" alt="디퓨저 패키지 디자인"></div>
+          <div class="pf_img_7" data-aos="zoom-in" data-aos-duration="1500"><img src="img/pf_img_7.png" alt="디퓨저 패키지 디자인"></div>
+          <div class="pf_txt_7"><img src="img/pf_txt_7.png" alt="디퓨저 패키지 디자인"></div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--푸터 부문-->
+    <footer>
+      <div class="footer_wrap">
+        <span class="footer_logo"><img src="img/06_footer_logo.png" alt="footer"></span>
+        <span class="footer_txt">Copyright 2020 Seunghyun Yoo. All right reserved.<br>e-Mail : tmdgus6401@naver.com</span>
+      </div>
+    </footer>
+
+    <!--스크롤 스크립트-->
+    <script type="text/javascript" src="js/jquery-latest.js"></script>
+    <script>
+      function fnMove(seq){
+        var offset = $("#anchor" + seq).offset();
+        $('html,body').animate({scrollTop : offset.top}, 1200);
+    }
+    </script>
+
+    <!--AOS 스크립트-->
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+
+  </body>
+</html>
