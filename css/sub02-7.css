@@ -488,7 +488,8 @@ body.active {
 /* ========== Section 04 ========== */
 .section_04 {
   width: 100%;
-  margin-top: 13.33333333333333vw;
+  /* margin-top: 13.33333333333333vw; */
+  margin-top: 24vw;
 }
 .sec04_container {
   display: flex;
