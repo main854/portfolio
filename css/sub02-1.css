@@ -38,7 +38,7 @@ body.active {
   width: .4vw;
 }
 .body::-webkit-scrollbar-thumb {
-  background: #1d1d1d;
+  background: #333;
   height: 10%;
   border-radius: 1.2vw;
 }

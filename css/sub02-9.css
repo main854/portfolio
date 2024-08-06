@@ -38,8 +38,7 @@ body.active {
   width: .4vw;
 }
 .body::-webkit-scrollbar-thumb {
-  /* background: #1d1d1d; */
-  background: #F9B414;
+  background: #333;
   height: 8%;
   border-radius: 1.2vw;
 }
