@@ -373,7 +373,8 @@ body.active {
 /* ========== 인트로 텍스트 애니메이션 시작 ========== */
 .scroll_box {
   background-color: #000;
-  height: 5000px;
+  /* height: 5000px; */
+  height: 3000px;
 }
 .fix_box {
   /* border: 1px solid red; */
@@ -425,14 +426,18 @@ body.active {
 .w_text_container {
   width: calc(100% - 120px);
   margin: 0 auto;
+  overflow: hidden;
 }
-.w_tit {
+
+.w_text_container h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 5.111111111111111vw;
   font-weight: 700;
   color: #fff;
   z-index: 30;
   padding-top: 6.666666666666667vh;
+
+  line-height: 1;
 }
 .category {
   /* border: 1px solid #000; */
