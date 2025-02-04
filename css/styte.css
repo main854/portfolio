@@ -329,17 +329,7 @@ body.active {
   text-align: center;
   /* border: 1px solid #fff; */
 }
-.grad_circle {
-  width: 260px;
-  height: 260px;
-  border-radius: 50%;
-  position: absolute;
-  z-index: 10;
-  background: linear-gradient(to bottom, #FDC830, #1AD48A);
-  filter: blur(50px);
-  opacity: .2;
-  /* animation: fade-InOut 8s ease infinite; */
-}
+
 .video_wrap {
   width: 100%;
 }
@@ -366,7 +356,8 @@ body.active {
 }
 .main_tit {
   font-family: 'Montserrat';
-  font-size: 15.55555555555556vw;
+  /* font-size: 15.55555555555556vw; */
+  font-size: 13vw;
   font-weight: 700;
   color: #fff;
 }
