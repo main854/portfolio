@@ -626,10 +626,10 @@ body.active {
   width: 100%;
   height: auto;
   background: #000;
-  margin-top: 240px;
 }
 .sec06_box:first-child {
   padding-top: 120px;
+  margin-top: 240px;
 }
 .sec06_box img {
   width: 100%;
