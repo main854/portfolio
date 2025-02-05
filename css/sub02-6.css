@@ -444,7 +444,7 @@ body.active {
 .section_02 {
   background: #024084;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   margin-top: 13.33333333333333vw;
 }
 .sec02_container {
@@ -456,11 +456,11 @@ body.active {
   background: #024084;
 }
 .sec02_box {
-  
+  padding-top: 6.666666666666667vw;
 }
 .sec02_box:nth-child(1) {
   position: absolute;
-  margin-top: -2.4vw;
+  /* margin-top: -2.4vw; */
 }
 .sec02_box:nth-child(2) {
   display: flex;
